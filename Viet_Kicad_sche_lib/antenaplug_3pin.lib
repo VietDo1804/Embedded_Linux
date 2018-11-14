@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# AntenaPlug_3pin
+#
+DEF AntenaPlug_3pin AE? 0 40 Y Y 1 F N
+F0 "AE?" 150 250 39 H V C CNN
+F1 "AntenaPlug_3pin" 150 350 39 H V C CNN
+F2 "" 150 350 39 H I C CNN
+F3 "" 150 350 39 H I C CNN
+DRAW
+S -50 300 350 -100 0 1 0 N
+X RF 1 150 -300 200 U 50 50 1 1 I
+X GND 2 -250 150 200 R 50 50 1 1 I
+X GND 3 550 150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
